@@ -1,0 +1,530 @@
+*{
+    margin : 0;
+    padding:0;
+
+}
+
+@font-face {
+        font-family: "Acumin";
+        src: url("font/Acumin-Variable-Concept.ttf") format('truetype');
+        font-family: "Titania";
+        src: url("font/Titania-Regular.ttf") format('truetype');
+        font-family: "Cyrene";
+        src: url("font/Cyrene\ Regular.ttf") format('truetype');
+    }
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}   
+
+#main{
+    position: absolute;
+    margin: 5%;
+    width: 90%;
+    
+    
+}
+
+.backpage img{
+   
+    height: 50px;
+    width: 50px;
+   
+}
+
+.title{
+    position: relative;
+   
+}
+
+h1{
+    transition: 0.3s;
+    cursor: pointer;
+    color: #c5ae96; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.553) ;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Titania', 'Times New Roman', Times, serif;
+    
+}
+
+h1:hover{
+    opacity: 0.5;
+}
+
+.tema{
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #d9c0a596;
+    padding: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+    
+
+
+
+}
+
+.tema h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    text-shadow: 1.5px 0px 0px black;
+    color: #997156;
+ 
+
+}
+
+
+
+
+h1:hover + .tema{
+    position: relative;
+    margin-top: 20px;
+    visibility:  visible;
+    opacity: 1;
+    transition: 1s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.icon{
+    height: 200px;
+    width: 200px;
+    margin: 4%;
+
+}
+
+.text{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Titania";
+    color: #584821;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+   
+   
+}
+
+h3{
+    font-size: 28px;
+   letter-spacing: 2px; 
+}
+
+h6{
+    padding: 10%;
+    text-align: center;
+    font-size: 22px;
+     
+    
+    
+}
+
+
+.container img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+   
+} 
+
+.icon .logo:hover{
+    opacity: 0;
+    transition: 1s ease-in-out;
+    
+}
+
+.popup{
+    position: absolute;
+    background: rgba(92, 75, 48, 0.7) ;
+  
+    width: 100%;
+    height: ;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#popup1{
+    position: absolute;
+    background: rgba(92, 75, 48, 0.7) ;
+   
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.containt{
+   
+    content: "";
+    background-color: aliceblue;
+    position: absolute;
+    width: 90%;
+    height: fit-content;
+    background-color: #d9c0a5f7;
+    margin: 5%;
+    border-radius: 10%;
+    
+    
+}
+
+
+.popup_box{
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d9c0a5f7;
+    margin: 5%;
+    border-radius: 10%;
+    box-shadow: 0 5px 25px rgb(0, 0, 0, 0.7);
+    
+    
+   
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+} 
+
+.close-btn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 1;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+
+a:hover{
+    color: beige;
+}
+
+
+
+.isi{
+    top: 0;
+    display: grid;
+    row-gap: 40px;
+   
+    text-align: center;
+    padding: 5% 10%;
+    letter-spacing: 1px;
+    word-break: break-word;
+   
+ 
+}
+
+.isi p{
+    font-size: 15px;
+}
+
+
+.poster img{
+   width: 270px;
+   height:360px;
+   
+}
+
+h5{
+    
+    text-shadow: 2px 0px 0px black;
+    color: #997156;
+    font-size: 40px;
+}
+
+h4{
+    padding-bottom: 10px;
+    text-shadow: 2px 0px 0px black;
+    color: #997156;
+    font-size: 20px;
+}
+
+iframe{
+    width:350px;
+    height: 200px;
+}
+
+
+/* Responsive Breakpoint */
+@media (max-width: 1024px){
+    .backpage img{
+        height:40px;
+        width:40px;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+    .tema{
+        padding: 30px;
+        font-size: 13px;
+    
+    }
+    
+    .tema h2{
+        font-size: 15px;
+    }
+    
+    .icon{
+        height: 150px;
+        width: 150px;
+        margin: 5%;
+    }
+
+    .text{
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    h3{
+        font-size: 20px;
+       letter-spacing: 2px; 
+    }
+
+    h6{
+        font-size:20px;
+        
+    }
+
+    .container img{
+        width: 150px;
+        height: 150px;
+       
+    } 
+
+
+    h3{
+        font-size: 22px;
+    
+    }
+
+    .isi{
+        row-gap: 30px;
+        /*font-size: 15px;*/
+    
+     
+    }
+    
+    .isi p{
+    font-size: 12px;
+    
+    }
+    
+    .poster img{
+       width: 240px;
+       height:320px;
+       
+    }
+    
+    h5{
+        font-size: 35px;
+    }
+   
+    h4{
+        font-size: 18px;
+    }
+    
+    iframe{
+        width:300px;
+        height: 175px;
+    }
+    
+}
+    
+
+@media (max-width: 768px){
+     .backpage img{
+        height:30px;
+        width:30px;
+    }
+    h1{
+        font-size: 25px;
+    }
+   
+    .tema{
+        padding: 25px;
+        font-size: 10px;
+    
+    }
+    
+    .tema h2{
+        font-size: 14px;
+    }
+
+    .close-btn{
+        font-size: x-large;
+    }
+    
+    .icon{
+        height: 120px;
+        width: 120px;
+        margin: 4%;
+    }
+
+    .text{
+        width: 120px;
+        height: 120px;
+        
+    }
+
+    h3{
+        font-size: 14px;
+       letter-spacing: 1px; 
+    }
+
+    h6{
+        font-size:16px;
+        
+    }
+
+    .container img{
+        width: 120px;
+        height: 120px;
+       
+    } 
+
+
+    h3{
+        font-size: 20px;
+    
+    }
+
+    .isi{
+        /*font-size: 12px;*/
+        top: -170px;
+    }
+    .isi p{
+    font-size: 10px;
+   
+    }
+    
+    .poster img{
+       width: 210px;
+       height:280px;
+       
+    }
+    
+    h5{
+        font-size: 25px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+    
+    iframe{
+        width:275px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 500px){
+     .backpage img{
+        height:20px;
+        width:20px;
+    }
+    
+    h1{
+        font-size: 15px;
+    }
+
+    .tema{
+        padding: 20px;
+        font-size: 8px;
+    
+    }
+    
+    .tema h2{
+        font-size: 12px;
+    }
+
+    .close-btn{
+        font-size: large;
+    }
+    
+    .icon{
+        height: 110px;
+        width: 110px;
+        margin: 5%;
+    }
+
+    .text{
+        width: 110px;
+        height: 110px;
+        
+        
+    }
+
+    h3{
+        font-size:12px;
+       letter-spacing: 2px; 
+    }
+
+    h6{
+        font-size:10px;
+        padding: 10%;
+        
+    }
+    .container img{
+        width: 110px;
+        height: 110px;
+       
+    } 
+
+
+
+    .isi p{
+        font-size: 8px;
+        
+    }
+    
+    .poster img{
+       width: 180px;
+       height:240px;
+       
+    }
+    h5{
+        font-size: 17px;
+    }
+
+    h4{
+        font-size: 12px;
+        text-shadow: 1px 0px 0px black;
+    }
+    
+    iframe{
+        width:200px;
+        height: 125px;
+    }
+}
+    

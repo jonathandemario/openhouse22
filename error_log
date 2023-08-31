@@ -1,0 +1,18 @@
+[23-Jul-2022 12:00:34 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:00:34 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:38 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:38 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:40 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:40 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:41 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:41 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:41 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:41 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Warning:  require(../utility/db_connect.php): failed to open stream: No such file or directory in /home/openhouse/public_html/2022/admin/functions.php on line 2
+[23-Jul-2022 12:01:42 UTC] PHP Fatal error:  require(): Failed opening required '../utility/db_connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/openhouse/public_html/2022/admin/functions.php on line 2

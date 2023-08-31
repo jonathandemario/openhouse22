@@ -1,0 +1,2 @@
+[21-Jul-2022 15:21:40 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/openhouse/public_html/2022/utility/db_connect.php:16) in /home/openhouse/public_html/2022/utility/db_connect.php on line 21
+[21-Jul-2022 15:21:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/openhouse/public_html/2022/utility/db_connect.php:16) in /home/openhouse/public_html/2022/utility/db_connect.php on line 21
